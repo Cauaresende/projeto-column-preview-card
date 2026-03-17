@@ -24,13 +24,14 @@
     --cor-luxury: hsl(179, 100%, 13%);
 }
 
-h1 {
+h2 {
+    font-size: 30px;
     font-family: fonte-principal;
     color: white;
     margin-top: 20px;
 }
 
-P {
+p {
     font-family: fonte-secundaria;
     color: rgba(211, 211, 211, 0.733);
     margin: 20px 0;
@@ -38,7 +39,7 @@ P {
 
 main {
     margin: 30px auto;
-    max-width: 400px;
+    max-width: 350px;
 }
 
 div {

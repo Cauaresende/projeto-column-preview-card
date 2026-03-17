@@ -1,0 +1,47 @@
+@media screen and (min-width: 1000px) {
+    main {
+    max-width: 1000px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+
+   h2 {
+    margin: 30px 0;
+    font-size: 35px;
+   }
+   
+   p {
+    margin: 40px 0 70px 0;
+   }
+
+   div.sedan {
+    border-radius: 10px 0 0 10px;
+   }
+
+   div.luxury {
+    border-radius: 0 10px 10px 0;
+   }
+
+   button {
+    font-size: 14px;
+   }
+
+   button:hover {
+    border: 2px solid white;
+    color: white;
+   }
+   
+   .bt-sedan:hover {
+    background-color: var(--cor-sedan);
+   }
+
+   .bt-suv:hover {
+    background-color: var(--cor-suv);
+   }
+
+   .bt-luxury:hover {
+    background-color: var(--cor-luxury);
+   }
+
+}
