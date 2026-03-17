@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: fonte-principal;
+    src: url(BigShoulders-Regular.ttf);
+}
+
+@font-face {
+    font-family: fonte-secundaria;
+    src: url(LexendDeca-Regular.ttf);
+}
+
+:root {
+    --cor-sedan: hsl(31, 77%, 52%);
+    --cor-suv: hsl(184, 100%, 22%);
+    --cor-luxury: hsl(179, 100%, 13%);
+}
+
+div.sedan {
+    background-color: var(--cor-sedan);
+}
+
+div.suv {
+    background-color: var(--cor-suv);
+}
+
+div.luxury {
+    background-color: var(--cor-luxury);
+}
