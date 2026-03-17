@@ -7,11 +7,15 @@
 @font-face {
     font-family: fonte-principal;
     src: url(BigShoulders-Regular.ttf);
+    font-weight: 400;
+    font-display: swap;
 }
 
 @font-face {
     font-family: fonte-secundaria;
     src: url(LexendDeca-Regular.ttf);
+    font-weight: 400;
+    font-display: swap;
 }
 
 :root {
@@ -20,8 +24,31 @@
     --cor-luxury: hsl(179, 100%, 13%);
 }
 
+h1 {
+    font-family: fonte-principal;
+    color: white;
+    margin-top: 20px;
+}
+
+P {
+    font-family: fonte-secundaria;
+    color: rgba(211, 211, 211, 0.733);
+    margin: 20px 0;
+}
+
+main {
+    margin: 30px auto;
+    max-width: 400px;
+}
+
+div {
+    padding: 40px;
+}
+
 div.sedan {
     background-color: var(--cor-sedan);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 div.suv {
@@ -30,4 +57,26 @@ div.suv {
 
 div.luxury {
     background-color: var(--cor-luxury);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+button {
+    font-family: fonte-secundaria;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    cursor: pointer; 
+}
+
+.bt-sedan {
+    color: var(--cor-sedan);
+}
+
+.bt-suv {
+    color: var(--cor-suv);
+}
+
+.bt-luxury {
+   color: var(--cor-luxury);
 }
